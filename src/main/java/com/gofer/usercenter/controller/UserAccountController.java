@@ -25,7 +25,7 @@ public class UserAccountController {
         UserInfo userInfo =new UserInfo();
         userInfo.setUserName(userAccount.getUsername());
         System.out.println(userAccount.toString());
-        System.out.println("asdf");
+
 
 
 

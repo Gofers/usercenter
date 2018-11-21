@@ -19,8 +19,8 @@ public class Test {
     UserService userService;
 
     @RequestMapping("asdf")
-    public String qwer() {
-        return "qwer";
+    public String qwer(String userid) {
+        return userid;
     }
 
 
