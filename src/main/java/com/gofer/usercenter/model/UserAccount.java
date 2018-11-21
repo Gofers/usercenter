@@ -1,11 +1,11 @@
 package com.gofer.usercenter.model;
 
-import com.google.common.base.Strings;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.ResultMap;
-import org.apache.ibatis.annotations.ResultType;
-import org.apache.ibatis.annotations.Results;
-import org.springframework.web.bind.annotation.RequestMapping;
+//import com.google.common.base.Strings;
+//import org.apache.ibatis.annotations.Result;
+//import org.apache.ibatis.annotations.ResultMap;
+//import org.apache.ibatis.annotations.ResultType;
+//import org.apache.ibatis.annotations.Results;
+//import org.springframework.web.bind.annotation.RequestMapping;
 
 
 public class UserAccount {

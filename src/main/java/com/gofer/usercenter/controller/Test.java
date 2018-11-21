@@ -27,12 +27,14 @@ public class Test {
 
 
     @RequestMapping("test")
-    @Transactional
+    @Transactional(rollbackFor = {})
     public void asdf() {
         userService.insert(new UserAccount());
         System.out.println("qwer");
 
     }
+
+
 
     public static void main(String[] args) {
 

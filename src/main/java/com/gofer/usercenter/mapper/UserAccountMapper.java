@@ -20,7 +20,7 @@ public interface UserAccountMapper {
 
     /**
      * 通过用户id查找用户
-     * @param userId
+     * @param accountid
      * @return
      */
     UserAccount selectById(@Param("accountid") String accountid);

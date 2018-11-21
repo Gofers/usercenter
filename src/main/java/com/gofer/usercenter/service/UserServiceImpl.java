@@ -4,7 +4,7 @@ import com.gofer.usercenter.mapper.UserAccountMapper;
 import com.gofer.usercenter.model.UserAccount;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+//import org.springframework.transaction.annotation.Transactional;
 
 
 @Service
